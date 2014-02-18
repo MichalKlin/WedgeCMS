@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: orange;
+	font-size: 12px;
+	font-family: Arial, tahoma, verdana;
+	text-align: center;
+	margin: 5px;
+	padding: 0;
+}
+table {
+	margin: auto;
+	padding: 0;
+}
+td{
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+a{
+	margin: 0;
+	padding: 0;
+	font-weight : bold;
+	color: green;
+}
+a:hover{
+	margin: 0;
+	padding: 0;
+	font-weight : bold;
+	text-decoration: none;
+}
+
+img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+	color: red;
+}
+h2 {
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	margin: 0;
+	padding: 0;
+}
+h4 {
+	margin: 0;
+	padding: 0;
+}
+hr{
+	color: #000;
+	height: 1px;
+}
+
+li{
+	padding-left: 20px;
+}
+ul{
+	padding-left: 20px;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.tekst {
+	text-align: justify;
+  	font-size: 12px;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+.akapit {
+	text-align: justify;
+  	font-size: 12px;
+	font-family: Arial, Verdana, sans-serif;
+ }
+
+ 
+.do_druku{
+	text-align: right;
+	padding-right: 10px;
+}
+.do_druku img{
+	border: 0;
+}
+.menu_poziome li{
+       display: inline;
+}

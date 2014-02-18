@@ -1,0 +1,252 @@
+/* css by http://myhedspace.com */
+body {
+background-color:#595757;
+margin:0;
+padding:0;
+text-align:center;
+}
+#main {
+width:800px;
+height:600px;
+text-align:left;
+margin: 0 auto;
+/* center  */
+position:absolute;
+top:50%;
+margin-top:-311px;  /*negative half margin of height */
+margin-left: -410px; /*negative half margin of  width */
+left:50%
+/* center  */
+}
+#top {
+width:800px;
+height:14px;
+background-image:url(../images/home_top.jpg);
+font-size:1px; /*fix for weird ie bug */
+}
+#bottom {
+width:800px;
+height:16px;
+background-image:url(../images/home_bottom.jpg);
+font-size:1px;  /*fix for weird ie bug */
+}
+#wrap {
+width:800px;
+height:600px;
+background-image:url(../images/home_wrapbg.jpg);
+}
+#main_img {
+float:right;
+width:492px;
+height:600px;
+background-image:url(../images/tlo.jpg);
+margin-right:14px;
+display:inline;
+}
+#content_main {
+width: 459px;
+height:550px;
+background-image:url(../images/fff.gif);
+/*  use the following code if you want
+to use firefox or ie's opacity stuff. Remove the background-image line
+if you're going to use the code below
+
+opacity:0.60;
+background-color:#FFFFFF;
+filter:alpha(opacity=60);
+*/    
+margin:25px auto 0 auto;
+border:1px #999 solid;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bolder;
+overflow:auto; /* makes anchor links in ie non-working */
+}
+#content_main p {
+font-size:12px;
+text-align:justify;
+}
+#content_main h2 {
+font-size:20px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-weight:lighter;
+text-transform:uppercase;
+border-bottom: 2px #666 solid;
+}
+#content_main .item {
+padding:8px;
+}
+#left {
+width:250px;
+height:572px;
+float:left;
+margin-left:15px;
+display:inline;
+}
+#left .headline{
+padding:0 6px;
+text-align:justify;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#666;
+}
+#left .headline a{
+color:#666;
+}
+#left h1 {
+font-size:30px;
+color:#999999;
+font-family:"Century Gothic", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+font-weight:400;
+text-align:right;
+padding: 10px 8px 0 0;
+margin:0;
+}
+.darker {
+color:#4D4C4B;
+}
+#tagline {
+font: 9px "Century Gothic", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+text-align:right;
+padding: 0 8px 0 0;
+margin:-5px 0 0 0;
+color:#4D4C4B;
+}
+#nav {
+padding: 120px 0 0 6px;
+}
+#nav ul {
+list-style-type:none;
+padding:0;
+margin:0;
+font-size:36px;
+font-family:"Century Gothic", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+color:#D2D0CE;
+font-weight:300;
+letter-spacing:-3px;
+}
+#nav ul li{
+width:257px;
+height:77px;
+background-image:url(../images/nav_bg.gif);
+background-repeat:no-repeat;
+margin:4px 0 4px 0;
+padding-right:0;
+text-align:right;
+}
+#nav ul li a{
+height:77px;
+text-decoration:none;
+color:#D2D0CE;
+display:block;
+height:100%;
+background-image:url(../images/nav_bg.gif);
+padding-right:8px;
+}
+#nav ul li a:hover{
+background-image:url(../images/nav_bg2.gif);
+color:#FFFFFF;
+text-transform:uppercase;
+font-size:30px;
+}
+#footer_wedge{
+	clear: both;
+	float: left;
+}
+#footer_wedge p {
+	margin:0;
+	text-align:left;
+	color:#E6E4E2;
+	font:9px Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+}
+#footer_wedge p a{
+	color:#E6E4E2;
+	text-decoration:underline;
+}
+
+#footer p {
+margin:0;
+text-align:right;
+color:#E6E4E2;
+font:9px Verdana, Arial, Helvetica, sans-serif;
+padding-right:10px;
+}
+#footer p a{
+color:#E6E4E2;
+text-decoration:none;
+}
+
+/*folio / gallery */
+.image_spot_tn {
+width:85%;
+padding-left:30px;
+}
+.image_spot_tn img{
+margin-right:3px;
+float:left;
+margin-bottom:5px;
+border:1px #666 solid;
+}
+/*folio / gallery */
+
+/* form */
+.form {
+width:80%;
+margin: 0 auto;
+}
+.form legend {
+color:#333;
+}
+.form fieldset {
+border: 1px #666 solid;
+padding:1em;
+}
+.form label {
+  display: block;
+}
+.form input {
+  width: 270px;
+}
+.form textarea {
+  width: 270px;
+  height: 100px;
+}
+.form input.submit {
+width: 100px;
+}
+/* form */
+
+#gallery_list a img, #gallery img{
+border: 2px solid #ddd;
+}
+
+.back a{
+	color: #333;
+	font-size: 12px;
+}
+#form_spotkanie th{
+	text-align: left;
+	padding-top: 5px;
+	font-size: 13px;
+}
+.zdjecie_title{
+	font-size: 13px;
+}
+.zdjecie_opis{
+	font-size: 12px;
+	text-align: justify;
+	font-weight: bold;
+}
+.zdjecie_min {
+	font-size: 12px;
+	text-align: justify;
+	font-weight: bold;
+}
+.favorite{
+	text-align: right;
+	width: 100%;
+}
+.favorite a{
+	font-size: 12px;
+	color: red;
+}
