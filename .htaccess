@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond $1 !^(adm) 
+RewriteRule ^(.*)\.html(.*)$ index.php?page=$1$2 [QSA,L]
